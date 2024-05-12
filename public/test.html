@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Upload and Update</title>
+</head>
+<body>
+    <h1>Image Upload and Update</h1>
+    <form id="uploadForm" action="upload.php" method="post" enctype="multipart/form-data">
+        <input title="Upload" type="file" name="image" id="image">
+        <textarea name="features" id="features" placeholder="Enter image features"></textarea>
+        <button type="submit">Upload Image and Update Features</button>
+    </form>
+
+    <script src="./assets/mainUpload.js"></script>
+</body>
+</html>
